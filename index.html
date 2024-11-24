@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <header class="">
+        <div class="logo"><img src="logo.jpg" alt=""></div>
+        <nav>
+            <ul class="flex">
+                <li><a href="https://www.instagram.com/web_script_developer_1120/profilecard/?igsh=MnB5M2E4ZzhsY2du" target="_blank"><i class="ri-instagram-line icon"></i></a></li>
+                <li><a href="https://github.com/adityakumar1120" target="_blank"><i class="ri-github-fill icon"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="choices flex">
+            <div class="options flex" id="paper"><img src="icon-paper.svg" alt=""></div>
+            <div class="options flex" id="scissors"><img src="icon-scissors.svg" alt=""></div>
+        
+        <div class="options flex" id="rock"><img src="icon-rock.svg" alt=""></div>
+    </div>
+    <div class="showboard flex">
+        <div class="score-cont flex">
+            <span class="score">Your score</span>
+            <span id="userscore" class="show-score">0</span>
+        </div>
+        <div class="score-cont flex">
+            <span class="score">Computer score</span>
+            <span id="compscore" class="show-score">0</span>
+        </div>
+    </div>
+    <div class="flex-center msg-cont">
+        <p id="msg"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
